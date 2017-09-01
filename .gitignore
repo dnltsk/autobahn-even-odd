@@ -1,2 +1,4 @@
-/temp/
+/temp/*
 /.DS_Store
+/.idea
+/*.iml

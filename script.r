@@ -2,7 +2,7 @@ wd <- setwd(".")
 setwd(wd)
 
 #
-# 1. load or install dependencies
+# 1. load or install dependencies (via https://www.r-bloggers.com/loading-andor-installing-packages-programmatically/)
 #
 is_installed <- function(mypkg) is.element(mypkg, installed.packages()[,1])
 load_or_install <- function(libs){
